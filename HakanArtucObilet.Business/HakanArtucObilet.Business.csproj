@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HakanArtucObilet.DataAccess\HakanArtucObilet.DataAccess.csproj" />
+    <ProjectReference Include="..\HakanArtucObilet.Entities\HakanArtucObilet.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
